@@ -265,6 +265,7 @@ main {
     }
 
     h2#final-info {color: #010101;}
+    #attribution {color: #eee;}
 
     #curtain-header {
         color: #000000;
