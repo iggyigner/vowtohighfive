@@ -273,12 +273,7 @@ main {
 		padding: 3px 10px;
 	}
 
-/* Slide 10 */
-#slide-10 {position: relative;}
-#slide-10 .bcg {background-image:url('../img/bcg_slide-5.jpg')}
-#slide-10 .bcg2 {background-image:url('../img/bcg_slide-5b.jpg'); position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 1}
-#slide-10 .bcg3 {background: none; background-color: #010101; z-index: 2;  position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 2}
-
+/* End Sequence */
 .hsContainer {
     display: table;
     table-layout: fixed;
