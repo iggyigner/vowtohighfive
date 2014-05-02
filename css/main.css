@@ -23,7 +23,6 @@ Enjoy responsibly!
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
 html,
 button,
 input,
@@ -40,7 +39,6 @@ body {
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
- * Customize the background color to match your design.
  */
 
 ::-moz-selection {
@@ -95,7 +93,6 @@ textarea {
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
-
 .chromeframe {
     margin: 0.2em 0;
     background: #ccc;
@@ -117,16 +114,63 @@ body {
 .no-js {
 	padding-top: 106px;
 }
-h2 {
-	margin-top: 0;
+
+.back-link a {
+    color: #4ca340;
+    text-decoration: none; 
+    border-bottom: 1px #4ca340 solid;
 }
+
+.back-link a:hover,
+.back-link a:focus {
+    color: #408536; 
+    text-decoration: none;
+    border-bottom: 1px #408536 solid;
+}
+
+h1 {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Montserrat', 'sans-serif';
+    color: #1c1d1e;
+    font-size: 32px;
+    margin-bottom: 3px;
+}
+
+h2 {
+    color: #1c1d1e;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.entry-header .inner {
+    text-align: left;
+    margin: 0 auto 20px auto;
+    width: 800px;
+}
+
+.entry-header {
+    padding-top: 20px;
+    background-color: #fff;
+    width:100%; position:
+    fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999}
+
+
 .loading {
 	background: url('../img/ico_loading.gif') no-repeat center center;
 }
+
 section {
 	min-width: 960px;
 	opacity: 0;
 }
+
 .loaded section,
 .no-js section {
 	opacity: 1;
@@ -134,6 +178,7 @@ section {
 	-moz-transition: opacity 300ms ease-out;
 	transition: opacity 300ms ease-out;
 }
+
 main {
 	overflow-x: hidden;
 }
@@ -205,6 +250,7 @@ main {
 	padding: 0 8%;
 	text-align: center
 }
+
 	.hsContent h2,
 	.copy h2 {
 		color: #ffffff;
@@ -226,8 +272,6 @@ main {
 		background-color: rgba(0,0,0,0.75);
 		padding: 3px 10px;
 	}
-
-
 
 /* Slide 6 */
 #slide-6 {position: relative;}
@@ -253,6 +297,7 @@ main {
     padding: 0 8%;
     text-align: center
 }
+
     .hsContent h2,
     .copy h2 {
         color: #ffffff;
@@ -288,7 +333,6 @@ main {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
 /*
  * Image replacement
  */
